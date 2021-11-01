@@ -1,0 +1,40 @@
+#bear {
+  position: absolute;
+  left: 100px;
+  /*top: 240px;*/
+  width: 100px;
+  height: 160px;
+}
+
+#board {
+  position: absolute;
+  height: 600px;
+  width: 1247px;
+  background-color: rgb(198, 163, 238);
+  align-content: center;
+  align-self: center;
+}
+
+#title {
+  background-color: rgb(221, 154, 154);
+  align-content: center;
+  align-self: center;
+}
+
+#scores {
+  background-color: rgb(255, 126, 195);
+  align-content: center;
+  align-self: center;
+}
+
+.location {
+  color: rgb(88, 187, 88);
+}
+
+#hits {
+  color: rgb(146, 6, 6);
+}
+
+#duration {
+  color: blue;
+}
