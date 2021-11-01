@@ -60,6 +60,7 @@ function start() {
 function startTimer(){
   function myClock(){
     thisDuration += 1;
+    document.getElementById("timer").innerHTML = thisDuration + "s";
   }
   myTimer = setInterval(myClock,1000);
   // stop calling the event after one keypress
@@ -212,7 +213,7 @@ function updateBees() {
 
   // update the timer for the next move if score is not 1000
   if (score != 1000) {
-  updateTimer = setTimeout("updateBees()", period);
+    updateTimer = setTimeout("updateBees()", period);
   } else {
     clearTimeout(updateTimer);
     // insert a new table data and append the text "Game Over!"
