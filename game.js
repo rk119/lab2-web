@@ -222,6 +222,7 @@ function updateBees() {
     let p = document.createElement("p");
     let text = document.createTextNode("Game Over!");
     p.appendChild(text); 
+    p.style.backgroundColor = "yellow";
     d.appendChild(p);
     gameOver.appendChild(d);
     // stop the timer
